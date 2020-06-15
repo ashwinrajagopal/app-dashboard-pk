@@ -1,0 +1,194 @@
+{
+  "buildings": [
+    {
+      "buildingName": "LeMeridian",
+      "buildingId": 1,
+      "type": "Hotel",
+      "addressInfo": {
+        "street": "XYZ",
+        "city": "Kochi",
+        "state": "Kerala",
+        "postalCode": 682388
+      },
+      "buildingParams": [
+        {
+          "paramsInfo": {
+            "name": "Temperature",
+            "id": 1,
+            "unit": "Celsius",
+            "rangeStart": 0,
+            "rangeEnd": 0,
+            "roleAccess": [
+              {
+                "roleName": "Supervisor",
+                "roleDescription": "Admin"
+              }
+            ]
+          },
+          "value": 0
+        },
+        {
+          "paramsInfo": {
+            "name": "Humidity",
+            "id": 2,
+            "unit": "Celsius",
+            "rangeStart": 0,
+            "rangeEnd": 0,
+            "roleAccess": [
+              {
+                "roleName": "Supervisor",
+                "roleDescription": "Admin"
+              }
+            ]
+          },
+          "value": 0
+        }
+      ]
+    },
+    {
+      "buildingName": "Crown Plaza",
+      "buildingId": 2,
+      "type": "Hotel",
+      "addressInfo": {
+        "street": "ABC",
+        "city": "Kochi",
+        "state": "Kerala",
+        "postalCode": 682388
+      },
+      "buildingParams": [
+        {
+          "paramsInfo": {
+            "id": 1 ,
+           "value": 0,
+           "recordedDateTime" : "2012-04-16T20:25:43.511Z"
+          }
+        },
+        {
+          "paramsInfo": {            
+            "id": 2 ,
+            "value": 0,
+            "recordedDateTime" : "2012-06-16T18:25:43.511Z"
+          }
+        }
+      ]
+    }
+  ],
+  "floors" : [
+     {
+    "floorNumber": 1,
+       "floorParams":  [{
+          "paramsInfo": {
+            "id": 1 ,
+           "value": 0,
+           "recordedDateTime" : "2012-04-16T20:25:43.511Z"
+          }
+        
+        },
+        {
+          "paramsInfo": {            
+            "id": 2 ,
+            "value": 0,
+            "recordedDateTime" : "2012-04-16T10:25:43.511Z"
+          }
+        }
+     ],
+    "buildingId": 1
+    },
+     {
+    "floorNumber": 2,
+       "floorParams":  [{
+          "paramsInfo": {
+            "id": 1 ,
+           "value": 0,
+          "recordedDateTime" : "2012-04-16T20:25:43.511Z"
+          }
+        
+                        },
+        {
+          "paramsInfo": {            
+            "id": 2 ,
+            "value": 0,
+             "recordedDateTime" : "2012-04-16T20:25:43.511Z"
+          }
+        }
+     ],
+    "buildingId": 1
+    }
+   ],
+   "rooms" : [
+     {
+    "floorNumber": 1,
+       "roomParams":  [{
+          "paramsInfo": {
+            "id": 1 ,
+           "value": 0,
+              "recordedDateTime" : "2012-04-16T20:25:43.511Z"
+          }
+        
+                        },
+        {
+          "paramsInfo": {            
+            "id": 2 ,
+            "value": 0,
+              "recordedDateTime" : "2012-04-16T20:25:43.511Z"
+          }
+        }
+     ],
+    "buildingId": 1
+    },
+     {
+    "floorNumber": 1,
+       "roomParams":  [{
+          "paramsInfo": {
+            "id": 1 ,
+           "value": 0,
+            "recordedDateTime" : "2012-04-16T20:25:43.511Z"
+          }
+        },
+        {
+          "paramsInfo": {            
+            "id": 2 ,
+            "value": 0,
+            "recordedDateTime" : "2012-04-16T20:25:43.511Z"
+          }
+        }
+     ],
+    "buildingId": 1
+    }
+   ],
+     "params":[
+       {
+      "name": "Temperature",
+      "id": 1,
+      "rangeStart": 0.0,
+      "rangeEnd": 0.0,
+      "roleAccess": [
+         "Supervisor",
+        "Admin",
+         "Staff"        
+        ]
+     },
+     {
+      "name": "Humidity",
+      "id": 2,
+      "rangeStart": 0.0,
+      "rangeEnd": 0.0,
+      "roleAccess": [
+         "Supervisor",
+         "Admin",
+         "Staff"        
+        ]
+      }
+     ],
+       "users" : [
+         {
+           "userName" : "Ashwin",
+           "roleAccess" : "Supervisor"           
+         },
+         {
+           "userName" : "Lenin",
+           "roleAccess" : "Admin"           
+         }         
+         ]
+     
+ }
